@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AdapterPedidos">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/TXNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textSize="30dp"/>
+
+        <Button
+            android:layout_toRightOf="@id/TXNome"
+            android:id="@+id/btConfirmar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5555"
+            android:text="Confirmar"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
